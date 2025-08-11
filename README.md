@@ -4,7 +4,7 @@
  A full-stack web app to track, compare, and analyze daily prices of local market products. Features role-based dashboards, product reviews, watchlist, offers, Stripe payment, and a modern, responsive UI.
 
 ## 🌐 Live Website
-[Live Demo](https://flourishing-moonbeam-4a7ee1.netlify.app/)
+[Live Demo](https://localmarkettrackerbd.netlify.app/)
 
 ## 🚀 Features
 - JWT Authentication & Google Login
