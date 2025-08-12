@@ -92,5 +92,5 @@ $ npm run dev
 
 
 ## 🙏 Credits / Contributors
-- [Your Name](https://github.com/Programming-Hero-Web-Course4/b11a12-client-side-Mahiudden/)
+- [Mahiudden](https://github.com/Mahiudden)
 
