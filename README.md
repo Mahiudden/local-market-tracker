@@ -168,22 +168,6 @@ backend/
 └── server.js              # Main server file
 ```
 
-## 🔑 Default Credentials
-
-### Admin Account
-- **Email**: admin@example.com
-- **Password**: admin123
-- **Role**: Admin
-
-### Vendor Account
-- **Email**: vendor@example.com
-- **Password**: vendor123
-- **Role**: Vendor
-
-### User Account
-- **Email**: user@example.com
-- **Password**: user123
-- **Role**: User
 
 ## 📱 Responsive Design
 
