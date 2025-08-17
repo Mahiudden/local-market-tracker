@@ -16,7 +16,7 @@ A comprehensive full-stack web application for tracking local market prices and 
 
 ## 🌐 Live Website
 [Live Demo](https://flourishing-moonbeam-4a7ee1.netlify.app/)
->>>>>>> e756dd56ce2911dcbf04df989d534c300e0adec8
+
 
 ### 🏠 Home Page
 - **Hero section** with rotating banner/slider
