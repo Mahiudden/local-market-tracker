@@ -36,6 +36,9 @@ A comprehensive full-stack web application for tracking local market prices and 
 - **Order history**
 - **Real-time data visualization**
 
+## 🔐 Authentication Details
+- **Admin Email:** `admin@example.com`
+- **Admin Password:** `Admin123`
 
 ### 🛍️ Product Management
 - **All products page** with search and filtering
