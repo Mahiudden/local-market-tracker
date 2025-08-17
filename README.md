@@ -10,7 +10,7 @@ A comprehensive full-stack web application for tracking local market prices and 
 - **Role-based access control** (User, Vendor, Admin)
 - **Protected routes** and middleware
 - **Profile management** with editable information
-=======
+
 ## 📚 Project Description
  A full-stack web app to track, compare, and analyze daily prices of local market products. Features role-based dashboards, product reviews, watchlist, offers, Stripe payment, and a modern, responsive UI.
 
