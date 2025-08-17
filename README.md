@@ -35,12 +35,7 @@ A comprehensive full-stack web application for tracking local market prices and 
 - **Watchlist management**
 - **Order history**
 - **Real-time data visualization**
-=======
 
-## 🔐 Authentication Details
-- **Admin Email:** `admin@gmail.com`
-- **Admin Password:** `Admin123`
->>>>>>> e756dd56ce2911dcbf04df989d534c300e0adec8
 
 ### 🛍️ Product Management
 - **All products page** with search and filtering
