@@ -28,7 +28,6 @@ A comprehensive full-stack web application for tracking local market prices and 
 - **Newsletter subscription**
 - **Advertisement carousel**
 
-<<<<<<< HEAD
 ### 📊 Dashboard
 - **Overview page** with charts and statistics
 - **Profile management** with edit functionality
