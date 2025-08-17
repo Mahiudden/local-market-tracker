@@ -1,0 +1,189 @@
+@import "tailwindcss";
+
+/* Comprehensive CSS for theme system */
+:root {
+  --light-bg: #f0f9ff;
+  --light-text: #1e293b;
+  --dark-bg: #111827;
+  --dark-text: #f9fafb;
+}
+
+/* Global theme transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Responsive container widths */
+.container-responsive {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 640px) {
+  .container-responsive {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-responsive {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-responsive {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container-responsive {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container-responsive {
+    max-width: 1536px;
+  }
+}
+
+/* Light mode overrides - only for main container */
+.light .min-h-screen {
+  background-image: linear-gradient(to bottom right, #eff6ff, #ffffff, #ecfdf5);
+}
+
+/* Dark mode overrides - only for main container */
+.dark .min-h-screen {
+  background-image: linear-gradient(to bottom right, #111827, #1f2937, #111827);
+}
+
+/* Ensure main container gets theme */
+.min-h-screen.light {
+  background-image: linear-gradient(to bottom right, #eff6ff, #ffffff, #ecfdf5);
+}
+
+.min-h-screen.dark {
+  background-image: linear-gradient(to bottom right, #111827, #1f2937, #111827);
+}
+
+/* Only override specific background classes, not all elements */
+.light .bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #eff6ff, #ffffff, #ecfdf5);
+}
+
+.dark .bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #111827, #1f2937, #111827);
+}
+
+/* Preserve navbar styling */
+header {
+  background-image: linear-gradient(to right, #2563eb, #3b82f6, #60a5fa);
+}
+
+.dark header {
+  background-image: linear-gradient(to right, #111827, #1f2937, #374151);
+}
+
+/* Ensure navbar text is always white */
+header,
+header * {
+  color: white;
+}
+
+/* Preserve specific component backgrounds */
+.bg-white {
+  background-color: white;
+}
+
+.dark .bg-white {
+  background-color: #1f2937;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.dark .bg-gray-100 {
+  background-color: #374151;
+}
+
+.bg-gray-200 {
+  background-color: #e5e7eb;
+}
+
+.dark .bg-gray-200 {
+  background-color: #4b5563;
+}
+
+/* Fix dropdown styling in dark mode */
+.dark select {
+  background-color: #374151;
+  color: #f9fafb;
+  border-color: #4b5563;
+}
+
+.dark select option {
+  background-color: #374151;
+  color: #f9fafb;
+}
+
+.dark select:focus {
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.2);
+}
+
+/* Ensure dropdown text is visible in all themes */
+select {
+  color: inherit;
+}
+
+select option {
+  color: inherit;
+  background-color: inherit;
+}
+
+/* Dark mode specific dropdown overrides */
+.dark select {
+  background-color: #374151 !important;
+  color: #f9fafb !important;
+}
+
+.dark select option {
+  background-color: #374151 !important;
+  color: #f9fafb !important;
+}
+
+/* Light mode specific dropdown overrides */
+.light select {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+}
+
+.light select option {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+}
+
+/* Responsive grid improvements */
+@media (min-width: 1024px) {
+  .grid-responsive {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .grid-responsive {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}
+
+@media (min-width: 1536px) {
+  .grid-responsive {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+}

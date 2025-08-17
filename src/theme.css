@@ -1,0 +1,137 @@
+/* Clean Theme Management CSS */
+:root {
+  --light-bg: #f0f9ff;
+  --light-text: #1e293b;
+  --dark-bg: #111827;
+  --dark-text: #f9fafb;
+  --navbar-light: linear-gradient(to right, #2563eb, #3b82f6, #60a5fa);
+  --navbar-dark: linear-gradient(to right, #111827, #1f2937, #374151);
+}
+
+/* Global theme transitions */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Light mode - only for main container */
+.light .min-h-screen {
+  background-image: linear-gradient(to bottom right, #eff6ff, #ffffff, #ecfdf5);
+}
+
+/* Dark mode - only for main container */
+.dark .min-h-screen {
+  background-image: linear-gradient(to bottom right, #111827, #1f2937, #111827);
+}
+
+/* Main container theme overrides */
+.min-h-screen.light {
+  background-image: linear-gradient(to bottom right, #eff6ff, #ffffff, #ecfdf5);
+}
+
+.min-h-screen.dark {
+  background-image: linear-gradient(to bottom right, #111827, #1f2937, #111827);
+}
+
+/* Gradient background overrides - only for main container */
+.light .bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #eff6ff, #ffffff, #ecfdf5);
+}
+
+.dark .bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #111827, #1f2937, #111827);
+}
+
+/* Navbar styling - preserve original design */
+header {
+  background-image: var(--navbar-light);
+  color: white;
+}
+
+.dark header {
+  background-image: var(--navbar-dark);
+  color: white;
+}
+
+/* Ensure navbar text is always white */
+header,
+header * {
+  color: white;
+}
+
+/* Preserve specific component backgrounds */
+.bg-white {
+  background-color: white;
+}
+
+.dark .bg-white {
+  background-color: #1f2937;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.dark .bg-gray-100 {
+  background-color: #374151;
+}
+
+.bg-gray-200 {
+  background-color: #e5e7eb;
+}
+
+.dark .bg-gray-200 {
+  background-color: #4b5563;
+}
+
+/* Preserve text colors */
+.text-black {
+  color: #000000;
+}
+
+.dark .text-black {
+  color: #ffffff;
+}
+
+.text-blue-700 {
+  color: #1d4ed8;
+}
+
+.dark .text-blue-700 {
+  color: #60a5fa;
+}
+
+.text-gray-200 {
+  color: #e5e7eb;
+}
+
+.dark .text-gray-200 {
+  color: #d1d5db;
+}
+
+/* Preserve button and link styling */
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.dark .btn-primary {
+  background-color: #1d4ed8;
+  color: white;
+}
+
+/* Ensure proper contrast for dark mode */
+.dark .text-gray-600 {
+  color: #9ca3af;
+}
+
+.dark .text-gray-700 {
+  color: #6b7280;
+}
+
+.dark .text-gray-800 {
+  color: #4b5563;
+}
+
+.dark .text-gray-900 {
+  color: #111827;
+}
