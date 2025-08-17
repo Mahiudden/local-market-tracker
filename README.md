@@ -1,6 +1,6 @@
 # Local Market Tracker - Full Stack Web Application
 
-<<<<<<< HEAD
+
 A comprehensive full-stack web application for tracking local market prices and managing product information. Built with React, Node.js, Express, and MongoDB.
 
 ## 🌟 Features
